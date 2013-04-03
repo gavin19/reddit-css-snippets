@@ -2,6 +2,7 @@
 
 1. Change the colour of the subreddit name.
 2. Edit the subreddit name.
+3. Hide the 'Create your own subreddit button'.
 
 /*
 
@@ -35,4 +36,10 @@
 }
 .side .redditname a:after {
 	font-size: 19px;
+}
+
+/** 3. **/
+
+.side .create {
+	display: none;
 }
