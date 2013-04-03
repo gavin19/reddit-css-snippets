@@ -3,6 +3,7 @@
 1. Change the colour of the subreddit name.
 2. Edit the subreddit name.
 3. Hide the 'Create your own subreddit button'.
+4. Hiding the downvote arrows.
 
 /*
 
@@ -41,5 +42,17 @@
 /** 3. **/
 
 .side .create {
+	display: none;
+}
+
+/** 4. **/
+
+/* Hide the downvote arrows on links */
+.link .down {
+	display: none;
+}
+
+/* Hide the downvote arrows on comments */
+.comment .down {
 	display: none;
 }
