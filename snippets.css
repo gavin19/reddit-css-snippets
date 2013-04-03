@@ -1,6 +1,7 @@
 /** INDEX **
 
 1. Change the colour of the subreddit name.
+2. Edit the subreddit name.
 
 /*
 
@@ -14,4 +15,24 @@
 /* For the name in the sidebar */
 .side .redditname a {
 	color: #f00;
+}
+
+/** 2. **/
+
+/* Prepend /r/ to both instances of the subreddit name */
+.redditname a:before {
+	content: '/r/';
+}
+
+/* Change the subreddit name to 'SomethingElse' */
+.redditname a {
+	font-size: 0;
+	content: '';
+}
+.redditname a:after {
+	font-size: large;
+	content: 'SomethingElse';
+}
+.side .redditname a:after {
+	font-size: 19px;
 }
