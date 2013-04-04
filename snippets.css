@@ -9,6 +9,7 @@
 7. Text-only sticky message w/out link.
 8. Hide the rank figure (to the left of posts).
 9. Notice for non-subscribers at the foot of the page.
+10. Change 'MODERATORS' to something else.
 
 /*
 
@@ -109,4 +110,15 @@ body > .content:before {
     left: 0;
     right: 0;
     text-align: center;
+}
+
+/** 10. **/
+
+.side .helplink + .title h1 {
+	font-size: 0;
+	content: '';
+}
+.side .helplink + .title h1:before {
+	font-size: medium;
+	content: 'SOMETHING ELSE';
 }
