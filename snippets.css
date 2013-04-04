@@ -4,6 +4,8 @@
 2. Edit the subreddit name.
 3. Hide the 'Create your own subreddit button'.
 4. Hiding the downvote arrows.
+5. Replace 'readers' with something else.
+6. Replace 'users here now' with something else.
 
 /*
 
@@ -55,4 +57,22 @@
 /* Hide the downvote arrows on comments */
 .comment .down {
 	display: none;
+}
+
+/** 5. **/
+
+.subscribers .word {
+	display: none;
+}
+.subscribers .number:after {
+	content: ' something else';
+}
+
+/** 6. **/
+
+.users-online .word {
+	display: none;
+}
+.users-online .number:after {
+	content: ' something else';
 }
