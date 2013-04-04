@@ -6,8 +6,9 @@
 4. Hiding the downvote arrows.
 5. Replace 'readers' with something else.
 6. Replace 'users here now' with something else.
-7. Text-only sticky message w/out link
-8. Hide the rank figure (to the left of posts)
+7. Text-only sticky message w/out link.
+8. Hide the rank figure (to the left of posts).
+9. Notice for non-subscribers at the foot of the page.
 
 /*
 
@@ -93,3 +94,19 @@ body > .content:before {
 /** 8. **/
 
 .rank { display: none; }
+
+/** 9. **/
+
+.loggedin:not(.subscriber) .side .active:after {
+    content: 'Hey you! Click here to subscribe.';
+    position: fixed;
+    background: #cee3f8;
+    border-top: 1px solid;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
