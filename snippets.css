@@ -6,6 +6,7 @@
 4. Hiding the downvote arrows.
 5. Replace 'readers' with something else.
 6. Replace 'users here now' with something else.
+7. Text-only sticky message w/out link
 
 /*
 
@@ -75,4 +76,15 @@
 }
 .users-online .number:after {
 	content: ' something else';
+}
+
+/** 7. **/
+
+body > .content:before {
+    content: 'This is the sticky message';
+    display: inline-block;
+    margin: 0 0 10px 20px;
+    padding: 6px 8px;
+    background: #cee3f8;
+    font-weight: bold;
 }
