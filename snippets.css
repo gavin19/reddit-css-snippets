@@ -7,6 +7,7 @@
 5. Replace 'readers' with something else.
 6. Replace 'users here now' with something else.
 7. Text-only sticky message w/out link
+8. Hide the rank figure (to the left of posts)
 
 /*
 
@@ -88,3 +89,7 @@ body > .content:before {
     background: #cee3f8;
     font-weight: bold;
 }
+
+/** 8. **/
+
+.rank { display: none; }
