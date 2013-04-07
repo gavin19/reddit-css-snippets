@@ -84,12 +84,12 @@
 /** 7. **/
 
 body > .content:before {
-    content: 'This is the sticky message';
-    display: inline-block;
-    margin: 0 0 10px 20px;
-    padding: 6px 8px;
-    background: #cee3f8;
-    font-weight: bold;
+	content: 'This is the sticky message';
+	display: inline-block;
+	margin: 0 0 10px 20px;
+	padding: 6px 8px;
+	background: #cee3f8;
+	font-weight: bold;
 }
 
 /** 8. **/
@@ -99,17 +99,17 @@ body > .content:before {
 /** 9. **/
 
 .loggedin:not(.subscriber) .side .active:after {
-    content: 'Hey you! Click here to subscribe.';
-    position: fixed;
-    background: #cee3f8;
-    border-top: 1px solid;
-    color: #000;
-    font-weight: bold;
-    font-size: 1.2em;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
+	content: 'Hey you! Click here to subscribe.';
+	position: fixed;
+	background: #cee3f8;
+	border-top: 1px solid;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.2em;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 /** 10. **/
