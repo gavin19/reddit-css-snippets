@@ -32,7 +32,7 @@
 	content: '/r/';
 }
 
-/* Change the subreddit name to 'SomethingElse' */
+/* Hide the subreddit name and insert 'SomethingElse' */
 .redditname a {
 	font-size: 0;
 	content: '';
