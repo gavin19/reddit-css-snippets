@@ -18,6 +18,7 @@
 16. Change the colour of link titles, based on the source website.
 17. Insert an image before link titles, based on the source website.
 18. Alternating background colours of comment tiers.
+19. Warning popup on downvote arrow.
 
 /*------ Stylesheet -------
 
@@ -274,3 +275,52 @@ body > .content:before {
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff !important; }
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
 .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{ background-color: #f8f8ff !important; }
+
+/*-- 19 --*/
+
+/* On links only */
+.link .down:hover:before {
+	content: 'Something something something about link downvoting';
+	position: absolute;
+	z-index: 99;
+	margin: -3em 0 0 2em;
+	padding: .3em;
+	border: .1em dashed;
+	background: orangered;
+	font-size: x-small;
+	font-weight: bold;
+	width: 20em;
+	text-align: center;
+}
+
+/* On comments only */
+.comment .down:hover:before {
+	content: 'Something something something about comment downvoting';
+	position: absolute;
+	z-index: 99;
+	margin: -3em 0 0 2em;
+	padding: .3em;
+	border: .1em dashed;
+	background: orangered;
+	font-size: x-small;
+	font-weight: bold;
+	width: 20em;
+	text-align: center;
+}
+
+/* On both */
+.thing .down:hover:before {
+	content: 'Something something something about downvoting';
+	position: absolute;
+	z-index: 99;
+	margin: -3em 0 0 2em;
+	padding: .3em;
+	border: .1em dashed;
+	background: orangered;
+	font-size: x-small;
+	font-weight: bold;
+	width: 20em;
+	text-align: center;
+}
+
+
