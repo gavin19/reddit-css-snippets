@@ -12,6 +12,7 @@
 10. Change 'MODERATORS' to something else.
 11. Change the colour of link titles.
 12. Remove fixed width of link flair labels.
+13. Add warning text on submit pages.
 
 /*------ Stylesheet -------
 
@@ -159,3 +160,29 @@ body > .content:before {
 /** 12. **/
 
 .linkflairlabel { max-width: none; }
+
+/** 13. **/
+
+/* Add text before the 'title' field (link and text posts) */
+.submit-page #title-field:before {
+	content: 'Some warning or other';
+	display: block;
+	margin: 6px 0;
+	color: #f00;
+}
+
+/* Add text before the 'url' field (link posts) */
+.submit-page #url-field:before {
+	content: 'Some warning or other';
+	display: block;
+	margin: 6px 0;
+	color: #f00;
+}
+
+/* Add text before the 'title' field (text posts) */
+.submit-page #text-field:before {
+	content: 'Some warning or other';
+	display: block;
+	margin: 6px 0;
+	color: #f00;
+}
