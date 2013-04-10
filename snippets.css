@@ -50,7 +50,7 @@ Additions are made to the 'sidebar' field specifically.
 
 /*------- Snippets --------
 
-/** 1. **/
+/*-- 1 --*/
 
 /* For the name in the header */
 .pagename a {
@@ -62,7 +62,7 @@ Additions are made to the 'sidebar' field specifically.
 	color: #f00;
 }
 
-/** 2. **/
+/*-- 2 --*/
 
 /* Prepend /r/ to both instances of the subreddit name */
 .redditname a:before {
@@ -82,13 +82,13 @@ Additions are made to the 'sidebar' field specifically.
 	font-size: 19px;
 }
 
-/** 3. **/
+/*-- 3 --*/
 
 .side .create {
 	display: none;
 }
 
-/** 4. **/
+/*-- 4 --*/
 
 /* Hide the downvote arrows on links */
 .link .down {
@@ -100,7 +100,7 @@ Additions are made to the 'sidebar' field specifically.
 	display: none;
 }
 
-/** 5. **/
+/*-- 5 --*/
 
 .subscribers .word {
 	display: none;
@@ -109,7 +109,7 @@ Additions are made to the 'sidebar' field specifically.
 	content: ' something else';
 }
 
-/** 6. **/
+/*-- 6 --*/
 
 .users-online .word {
 	display: none;
@@ -118,7 +118,7 @@ Additions are made to the 'sidebar' field specifically.
 	content: ' something else';
 }
 
-/** 7. **/
+/*-- 7 --*/
 
 body > .content:before {
 	content: 'This is the sticky message';
@@ -129,13 +129,13 @@ body > .content:before {
 	font-weight: bold;
 }
 
-/** 8. **/
+/*-- 8 --*/
 
 .rank {
 	display: none;
 }
 
-/** 9. **/
+/*-- 9 --*/
 
 .loggedin:not(.subscriber) .side .active:after {
 	content: 'Hey you! Click here to subscribe.';
@@ -151,7 +151,7 @@ body > .content:before {
 	text-align: center;
 }
 
-/** 10. **/
+/*-- 10 --*/
 
 .side .helplink + .title h1 {
 	font-size: 0;
@@ -162,7 +162,7 @@ body > .content:before {
 	content: 'SOMETHING ELSE';
 }
 
-/** 11. **/
+/*-- 11 --*/
 
 /* Unvisted links */
 .linklisting .link a.title:link {
@@ -181,13 +181,13 @@ body > .content:before {
 	color: #f00;
 }
 
-/** 12. **/
+/*-- 12 --*/
 
 .linkflairlabel {
 	max-width: none;
 }
 
-/** 13. **/
+/*-- 13 --*/
 
 /* Add text before the 'title' field (link and text posts) */
 .submit-page #title-field:before {
@@ -213,7 +213,7 @@ body > .content:before {
 	color: #f00;
 }
 
-/** 14. **/
+/*-- 14 --*/
 
 .side { 
 	margin: 40px 5px 0 5px;
@@ -234,7 +234,7 @@ body > .content:before {
 	display: none;
 }
 
-/** 15. **/
+/*-- 15 --*/
 
 /* Background colour of odd-numbered links */
 .listing-page .odd {
@@ -246,14 +246,14 @@ body > .content:before {
 	background: #fffdae;
 }
 
-/** 16. **/
+/*-- 16 --*/
 
 /* Change the colour of link titles from the `imgur.com` domain */
 .link a.title[href*="imgur.com/"] {
 	color: #ff0;
 }
 
-/** 17. **/
+/*-- 17 --*/
 
 /* Insert an image before link titles from the `bbc.co.uk` domain
    An image height of 14-16px would be standard */
@@ -262,7 +262,7 @@ body > .content:before {
 	vertical-align: middle;
 }
 
-/** 18. **/
+/*-- 18 --*/
 
 .commentarea .comment { background-color: #e0eeee !important; }
 .commentarea .comment .comment { background-color: #f8f8ff !important; }
