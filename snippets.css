@@ -15,7 +15,8 @@
 13. Add warning text on submit pages.
 14. Move submit buttons to the top of the sidebar, adjacent to one another.
 15. Alternating background colours for links.
-16. Change the colour of link titles based on the source website.
+16. Change the colour of link titles, based on the source website.
+17. Insert an image before link titles, based on the source website.
 
 /*------ Stylesheet -------
 
@@ -229,7 +230,16 @@ body > .content:before {
 
 /** 16. **/
 
-/*Change the colour of link titles from the `imgur.com` domain */
+/* Change the colour of link titles from the `imgur.com` domain */
 .link a.title[href*="imgur.com/"] {
 	color: #ff0;
+}
+
+/** 17. **/
+
+/* Insert an image before link titles from the `bbc.co.uk` domain
+   An image height of 14-16px would be standard */
+.link a.title[href*="bbc.co.uk/"]:before {
+	content: url(%%your-image%%);
+	vertical-align: middle;
 }
