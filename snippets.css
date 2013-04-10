@@ -13,6 +13,7 @@
 11. Change the colour of link titles.
 12. Remove fixed width of link flair labels.
 13. Add warning text on submit pages.
+14. Move submit buttons to the top of the sidebar, adjacent to one another.
 
 /*------ Stylesheet -------
 
@@ -185,4 +186,25 @@ body > .content:before {
 	display: block;
 	margin: 6px 0;
 	color: #f00;
+}
+
+/** 14. **/
+
+.side { 
+	margin: 40px 5px 0 5px;
+}
+.side .submit {
+	position: absolute;
+	width: 148px;
+	overflow: hidden;
+	top: 72px;
+}
+.side .submit-text {
+	right: 5px;
+}
+.side .submit a {
+	font-size: small;
+}
+.side .submit .nub {
+	display: none;
 }
