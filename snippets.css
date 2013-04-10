@@ -36,7 +36,16 @@ See here -
 
 http://www.reddit.com/r/csshelp/wiki/index#wiki_uploading_an_image_to_your_subreddit
 
-Following examples will refer to an assumed image name of 'your-image' 
+Following examples will refer to an assumed image name of 'your-image'
+
+/*------- Sidebar ---------
+
+Some snippets require content to be added to the sidebar. The sidebar contents can be
+edited from the 'subreddit settings' link in the sidebar, leading to the page here
+
+http://www.reddit.com/r/yoursub/about/edit
+
+Additions are made to the 'sidebar' field specifically. 
 
 /*------- Snippets --------
 
@@ -155,13 +164,21 @@ body > .content:before {
 /** 11. **/
 
 /* Unvisted links */
-.linklisting .link a.title:link { color: #00f; }
+.linklisting .link a.title:link {
+	color: #00f;
+}
 /* Visted links */
-.linklisting .link a.title:visited { color: #369; }
+.linklisting .link a.title:visited {
+	color: #369;
+}
 /* Hovered links */
-.linklisting .link a.title:hover { color: #360; }
+.linklisting .link a.title:hover {
+	color: #360;
+}
 /* Active links */
-.linklisting .link a.title:active { color: #f00; }
+.linklisting .link a.title:active {
+	color: #f00;
+}
 
 /** 12. **/
 
