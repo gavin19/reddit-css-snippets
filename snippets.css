@@ -14,6 +14,7 @@
 12. Remove fixed width of link flair labels.
 13. Add warning text on submit pages.
 14. Move submit buttons to the top of the sidebar, adjacent to one another.
+15. Alternating background colours for links.
 
 /*------ Stylesheet -------
 
@@ -208,3 +209,11 @@ body > .content:before {
 .side .submit .nub {
 	display: none;
 }
+
+/** 15. **/
+
+/* Background colour of odd-numbered links */
+.listing-page .odd { background: #f0f3fc; }
+
+/* Background colour of even-numbered links */
+.listing-page .even { background: #fffdae; }
