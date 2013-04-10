@@ -19,6 +19,7 @@
 17. Insert an image before link titles, based on the source website.
 18. Alternating background colours of comment tiers.
 19. Warning popup on downvote arrow.
+20. Display the last-edited timestamp after the post date.
 
 /*------ Stylesheet -------
 
@@ -323,4 +324,9 @@ body > .content:before {
 	text-align: center;
 }
 
+/*-- 20 --*/
 
+.edited-timestamp:after {
+	content: " (" attr(title) ")";
+	font-size: 90%;
+}
