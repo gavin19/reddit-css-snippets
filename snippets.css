@@ -17,6 +17,7 @@
 15. Alternating background colours for links.
 16. Change the colour of link titles, based on the source website.
 17. Insert an image before link titles, based on the source website.
+18. Alternating background colours of comment tiers.
 
 /*------ Stylesheet -------
 
@@ -260,3 +261,16 @@ body > .content:before {
 	content: url(%%your-image%%);
 	vertical-align: middle;
 }
+
+/** 18. **/
+
+.commentarea .comment { background-color: #e0eeee !important; }
+.commentarea .comment .comment { background-color: #f8f8ff !important; }
+.commentarea .comment .comment .comment { background-color:#e0eeee !important; }
+.commentarea .comment .comment .comment .comment { background-color: #f8f8ff !important; }
+.commentarea .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
+.commentarea .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{ background-color: #f8f8ff !important; }
