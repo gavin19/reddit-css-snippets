@@ -11,6 +11,7 @@
 9. Notice for non-subscribers at the foot of the page.
 10. Change 'MODERATORS' to something else.
 11. Change the colour of link titles.
+12. Remove fixed width of link flair labels.
 
 /*
 
@@ -134,3 +135,7 @@ body > .content:before {
 #siteTable a.title:hover { color: #360; }
 /* Active links */
 #siteTable a.title:active { color: #f00; }
+
+/** 12. **/
+
+.linkflairlabel { max-width: none; }
