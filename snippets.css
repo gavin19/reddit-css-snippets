@@ -10,6 +10,7 @@
 8. Hide the rank figure (to the left of posts).
 9. Notice for non-subscribers at the foot of the page.
 10. Change 'MODERATORS' to something else.
+11. Change the colour of link titles.
 
 /*
 
@@ -122,3 +123,14 @@ body > .content:before {
 	font-size: medium;
 	content: 'SOMETHING ELSE';
 }
+
+/** 11. **/
+
+/* Unvisted links */
+#siteTable a.title:link { color: #00f; }
+/* Visted links */
+#siteTable a.title:visited { color: #369; }
+/* Hovered links */
+#siteTable a.title:hover { color: #360; }
+/* Active links */
+#siteTable a.title:active { color: #f00; }
