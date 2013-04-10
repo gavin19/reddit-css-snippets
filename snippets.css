@@ -153,13 +153,13 @@ body > .content:before {
 /** 11. **/
 
 /* Unvisted links */
-#siteTable a.title:link { color: #00f; }
+.linklisting .link a.title:link { color: #00f; }
 /* Visted links */
-#siteTable a.title:visited { color: #369; }
+.linklisting .link a.title:visited { color: #369; }
 /* Hovered links */
-#siteTable a.title:hover { color: #360; }
+.linklisting .link a.title:hover { color: #360; }
 /* Active links */
-#siteTable a.title:active { color: #f00; }
+.linklisting .link a.title:active { color: #f00; }
 
 /** 12. **/
 
