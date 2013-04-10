@@ -13,7 +13,27 @@
 11. Change the colour of link titles.
 12. Remove fixed width of link flair labels.
 
-/*
+/*------ Stylesheet -------
+
+The stylesheet location for all subreddits follows the same pattern.
+
+http://www.reddit.com/r/yoursub/about/stylesheet
+
+See here - 
+
+http://www.reddit.com/r/csshelp/wiki/index#wiki_editing_your_subreddit.27s_stylesheet
+
+/*-------- Images ---------
+
+For any snippets that involve images, you must upload those images to your subreddit first.
+
+See here -
+
+http://www.reddit.com/r/csshelp/wiki/index#wiki_uploading_an_image_to_your_subreddit
+
+Following examples will refer to an assumed image name of 'your-image' 
+
+/*------- Snippets --------
 
 /** 1. **/
 
