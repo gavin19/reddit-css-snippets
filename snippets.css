@@ -119,7 +119,9 @@ body > .content:before {
 
 /** 8. **/
 
-.rank { display: none; }
+.rank {
+	display: none;
+}
 
 /** 9. **/
 
@@ -161,7 +163,9 @@ body > .content:before {
 
 /** 12. **/
 
-.linkflairlabel { max-width: none; }
+.linkflairlabel {
+	max-width: none;
+}
 
 /** 13. **/
 
@@ -213,7 +217,11 @@ body > .content:before {
 /** 15. **/
 
 /* Background colour of odd-numbered links */
-.listing-page .odd { background: #f0f3fc; }
+.listing-page .odd {
+	background: #f0f3fc;
+}
 
 /* Background colour of even-numbered links */
-.listing-page .even { background: #fffdae; }
+.listing-page .even {
+	background: #fffdae;
+}
