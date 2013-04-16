@@ -20,6 +20,7 @@
 18. Alternating background colours of comment tiers.
 19. Warning popup on downvote arrow.
 20. Display the last-edited timestamp after the post date.
+21. Change the NSFW tag to 'SPOILER'.
 
 /*------ Stylesheet -------
 
@@ -329,4 +330,16 @@ body > .content:before {
 .edited-timestamp:after {
 	content: " (" attr(title) ")";
 	font-size: 90%;
+}
+
+/*-- 21 --*/
+
+.nsfw-stamp acronym { display: none; }
+.nsfw-stamp:after  {
+	content: 'SPOILER';
+	color: #AC3939;
+	font-size: x-small;
+	padding: 0 2px;
+	border: 1px solid #D27979;
+	border-radius: 3px;
 }
