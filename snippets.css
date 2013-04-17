@@ -334,7 +334,9 @@ body > .content:before {
 
 /*-- 21 --*/
 
-.nsfw-stamp acronym { display: none; }
+.nsfw-stamp acronym {
+	display: none;
+}
 .nsfw-stamp:after  {
 	content: 'SPOILER';
 	color: #AC3939;
