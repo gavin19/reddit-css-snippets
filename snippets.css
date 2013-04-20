@@ -327,7 +327,7 @@ body > .content:before {
 
 /*-- 20 --*/
 
-.edited-timestamp:after {
+.edited-timestamp[title]:after {
 	content: " (" attr(title) ")";
 	font-size: 90%;
 }
