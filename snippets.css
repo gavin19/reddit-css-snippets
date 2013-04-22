@@ -267,16 +267,16 @@ body > .content:before {
 
 /*-- 18 --*/
 
-.commentarea .comment { background-color: #e0eeee !important; }
-.commentarea .comment .comment { background-color: #f8f8ff !important; }
-.commentarea .comment .comment .comment { background-color:#e0eeee !important; }
-.commentarea .comment .comment .comment .comment { background-color: #f8f8ff !important; }
-.commentarea .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
-.commentarea .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff !important; }
-.commentarea .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff !important; }
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee !important; }
-.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{ background-color: #f8f8ff !important; }
+.commentarea .comment { background-color: #e0eeee; }
+.commentarea .comment .comment { background-color: #f8f8ff; }
+.commentarea .comment .comment .comment { background-color:#e0eeee; }
+.commentarea .comment .comment .comment .comment { background-color: #f8f8ff; }
+.commentarea .comment .comment .comment .comment .comment { background-color: #e0eeee; }
+.commentarea .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #f8f8ff; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment { background-color: #e0eeee; }
+.commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{ background-color: #f8f8ff; }
 
 /*-- 19 --*/
 
