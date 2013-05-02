@@ -21,6 +21,7 @@
 19. Warning popup on downvote arrow.
 20. Display the last-edited timestamp after the post date.
 21. Change the NSFW tag to 'SPOILER'.
+22. Expose the URL of links in comments.
 
 /*------ Stylesheet -------
 
@@ -219,7 +220,7 @@ body > .content:before {
 /*-- 14 --*/
 
 .side { 
-	margin: 40px 5px 0 5px;
+	margin: 40px 5px 0;
 }
 .side .submit {
 	position: absolute;
@@ -344,4 +345,20 @@ body > .content:before {
 	padding: 0 2px;
 	border: 1px solid #D27979;
 	border-radius: 3px;
+}
+
+/*-- 22 --*/
+
+/* For regular/non-RES users */
+.comment .md a:after {
+    content: ' [' attr(href) ']';
+    color: #f00;
+}
+
+/* Exempt tags/vote weight/image expandos from having the link appended */
+.comment .md .userTagLink:after,
+.comment .md .voteWeight:after,
+.comment .md .userTagged:after,
+.comment .md .image:after {
+	content: none;
 }
