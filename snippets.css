@@ -24,7 +24,7 @@
 22. Expose the URL of links in comments.
 23. Hover popup on the report button.
 24. Change text post/default thumbnail.
-25. Alternating link background colours.
+25. Alternating link/comment background colours.
 
 /*------ Stylesheet -------
 
@@ -438,12 +438,22 @@ body > .content:before {
 
 /*-- 25 --*/
 
-/* On even posts */
-.linklisting .even {
+/* On even link posts */
+.linklisting .link.even {
 	background: #eee;
 }
 
-/* On odd posts */
-.linklisting .odd {
+/* On odd link posts */
+.linklisting .link.odd {
+	background: #ddd;
+}
+
+/* On even comments */
+.linklisting .comment.even {
+	background: #eee;
+}
+
+/* On odd comments */
+.linklisting .comment.odd {
 	background: #ddd;
 }
