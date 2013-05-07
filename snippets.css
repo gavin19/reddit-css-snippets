@@ -24,6 +24,7 @@
 22. Expose the URL of links in comments.
 23. Hover popup on the report button.
 24. Change text post/default thumbnail.
+25. Alternating link background colours.
 
 /*------ Stylesheet -------
 
@@ -433,4 +434,16 @@ body > .content:before {
 	background-position: 0 0;
 	width: 70px; /* Change dimensions to suit */
 	height: 50px; /* Change dimensions to suit */
+}
+
+/*-- 25 --*/
+
+/* On even posts */
+.linklisting .even {
+	background: #eee;
+}
+
+/* On odd posts */
+.linklisting .odd {
+	background: #ddd;
 }
