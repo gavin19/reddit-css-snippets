@@ -22,6 +22,7 @@
 20. Display the last-edited timestamp after the post date.
 21. Change the NSFW tag to 'SPOILER'.
 22. Expose the URL of links in comments.
+23. Hover popup on the report button.
 
 /*------ Stylesheet -------
 
@@ -361,4 +362,54 @@ body > .content:before {
 .comment .md .userTagged:after,
 .comment .md .image:after {
 	content: none;
+}
+
+/*-- 23 --*/
+
+/* On links only */
+.link .report-button .option:not(.error):hover:before {
+    content: 'Something something something about reporting';
+    position: absolute;
+    z-index: 99;
+    margin: -3em 0 0 2em;
+    padding: .3em;
+    border: .1em dashed;
+    background: orangered;
+    font-size: x-small;
+    font-weight: bold;
+    width: 20em;
+    text-align: center;
+    white-space: normal;
+}
+
+/* On comments only */
+.comment .report-button .option:not(.error):hover:before {
+    content: 'Something something something about reporting';
+    position: absolute;
+    z-index: 99;
+    margin: -3em 0 0 2em;
+    padding: .3em;
+    border: .1em dashed;
+    background: orangered;
+    font-size: x-small;
+    font-weight: bold;
+    width: 20em;
+    text-align: center;
+    white-space: normal;
+}
+
+/* On both */
+.thing .report-button .option:not(.error):hover:before {
+    content: 'Something something something about reporting';
+    position: absolute;
+    z-index: 99;
+    margin: -3em 0 0 2em;
+    padding: .3em;
+    border: .1em dashed;
+    background: orangered;
+    font-size: x-small;
+    font-weight: bold;
+    width: 20em;
+    text-align: center;
+    white-space: normal;
 }
