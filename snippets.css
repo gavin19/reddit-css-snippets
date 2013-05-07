@@ -23,6 +23,7 @@
 21. Change the NSFW tag to 'SPOILER'.
 22. Expose the URL of links in comments.
 23. Hover popup on the report button.
+24. Change text post/default thumbnail.
 
 /*------ Stylesheet -------
 
@@ -412,4 +413,24 @@ body > .content:before {
     width: 20em;
     text-align: center;
     white-space: normal;
+}
+
+/*-- 24 --*/
+
+/* Change self post thumbnail */
+.self .self {
+	background-image: url(%%your-image%%);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 70px; /* Change dimensions to suit */
+	height: 50px; /* Change dimensions to suit */
+}
+
+/* Change default snoo thumbnail */
+.link .default {
+	background-image: url(%%your-image%%);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 70px; /* Change dimensions to suit */
+	height: 50px; /* Change dimensions to suit */
 }
