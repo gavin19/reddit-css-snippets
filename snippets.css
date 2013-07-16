@@ -363,7 +363,7 @@ body > .content:before {
 .comment .md .voteWeight:after,
 .comment .md .userTagged:after,
 .comment .md .image:after {
-	content: none;
+	content: normal;
 }
 
 /*-- 23 --*/
