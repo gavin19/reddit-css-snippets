@@ -225,7 +225,7 @@ body > .content:before {
 .side { 
 	margin: 40px 5px 0;
 }
-.side .submit {
+.sidebox.submit {
 	position: absolute;
 	width: 148px;
 	overflow: hidden;
