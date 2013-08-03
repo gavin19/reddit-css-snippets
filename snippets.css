@@ -25,6 +25,7 @@
 23. Hover popup on the report button.
 24. Change text post/default thumbnail.
 25. Alternating link/comment background colours.
+26. Hide 'created by ...'.
 
 /*------ Stylesheet -------
 
@@ -456,4 +457,18 @@ body > .content:before {
 /* On odd comments */
 .linklisting .comment.odd {
 	background: #ddd;
+}
+
+/*-- 26 --*/
+
+.titlebox .bottom {
+	font-size: 0;
+	visibility: hidden;
+}
+.bottom .age {
+	font-size: small;
+	visibility: visible;
+}
+.titlebox .usertext {
+	border-bottom: 1px solid;
 }
