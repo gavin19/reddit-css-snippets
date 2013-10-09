@@ -374,7 +374,7 @@ body > .content:before {
     content: 'Something something something about reporting';
     position: absolute;
     z-index: 99;
-    margin: -3em 0 0 2em;
+    margin: -3.5em 0 0 2em;
     padding: .3em;
     border: .1em dashed;
     background: orangered;
@@ -390,7 +390,7 @@ body > .content:before {
     content: 'Something something something about reporting';
     position: absolute;
     z-index: 99;
-    margin: -3em 0 0 2em;
+    margin: -3.5em 0 0 2em;
     padding: .3em;
     border: .1em dashed;
     background: orangered;
@@ -406,7 +406,7 @@ body > .content:before {
     content: 'Something something something about reporting';
     position: absolute;
     z-index: 99;
-    margin: -3em 0 0 2em;
+    margin: -3.5em 0 0 2em;
     padding: .3em;
     border: .1em dashed;
     background: orangered;
