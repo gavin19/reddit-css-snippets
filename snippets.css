@@ -261,7 +261,7 @@ body > .content:before {
 /*-- 16 --*/
 
 /* Change the colour of link titles from the `imgur.com` domain */
-.link a.title[href*="imgur.com/"] {
+#siteTable a.title[href*="imgur.com/"] {
 	color: #ff0;
 }
 
