@@ -173,20 +173,24 @@ body > .content:before {
 /*-- 11 --*/
 
 /* Unvisted links */
-.linklisting .link a.title:link {
+#siteTable a.title {
 	color: #00f;
 }
 /* Visted links */
-.linklisting .link a.title:visited {
+#siteTable a.title:visited {
 	color: #369;
 }
 /* Hovered links */
-.linklisting .link a.title:hover {
+#siteTable a.title:hover {
 	color: #360;
 }
 /* Active links */
-.linklisting .link a.title:active {
+#siteTable a.title:active {
 	color: #f00;
+}
+/* Sticky links */
+#siteTable .stickied a.title {
+	color: #282;
 }
 
 /*-- 12 --*/
