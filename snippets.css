@@ -172,11 +172,11 @@ body > .content:before {
 
 /*-- 11 --*/
 
-/* Unvisted links */
+/* Unvisited links */
 #siteTable a.title {
 	color: #00f;
 }
-/* Visted links */
+/* Visited links */
 #siteTable a.title:visited {
 	color: #369;
 }
